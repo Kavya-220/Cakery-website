@@ -1,0 +1,43 @@
+.bg-image{
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('/review_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    width: 100%;
+    font-family: "outfit", sans-serif;
+   
+}
+
+
+   .box{
+
+    /* background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.1)); */
+        border:none !important;
+        box-shadow: 15px 20px 20px rgba(0,0,0,0.6),
+        inset 4px 4px 10px white;
+        border-radius: 20px;
+        overflow: hidden;
+        
+        cursor: pointer !important;
+        
+    }
+   
+    
+    .box:hover{
+        box-shadow: inset 5px 5px 10px rgba(0,0,0,0.3),
+        inset 6px 6px 13px white !important;
+        transition: .3s;
+        
+
+    }
+
+    .image{
+        height:60px;
+        width:60px;
+    }
+    .icon{
+        height:60px;
+        width:60px;
+
+    }

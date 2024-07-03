@@ -1,0 +1,27 @@
+.card{
+    width: 18rem;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,.1);
+    outline: none;
+}
+.food-item-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    position: relative;
+}
+.card-img .add{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.food-item-counter{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    gap: 10px;
+    border-radius: 50px;
+}

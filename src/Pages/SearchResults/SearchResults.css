@@ -1,0 +1,118 @@
+.bg-search {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),rgb(90, 19, 19);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    width: 100%;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    overflow: hidden;
+  }
+  
+  .search-results-page {
+    margin: 100px 60px;
+    padding: 0 60px;/* Add padding for responsiveness */
+  }
+  
+  .search-results-page h4 {
+    font-size: 26px;
+    font-weight: 500;
+    color: wheat;
+    text-align: center; /* Center align the header text */
+  }
+  
+  .search-results-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    }
+  
+  /* Ensure the FoodItem component styling matches here */
+  .search-result-item {
+    border: 1px solid #ddd; /* Match the FoodItem styling */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .search-result-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .search-result-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .search-result-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .search-result-item p {
+    font-size: 14px;
+    color: #666;
+  }
+ 
+    @media (max-width: 1090px) {
+      .search-results-list {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr  ;
+        gap: 10px;
+        }
+        
+    }
+    @media (max-width: 840px) {
+.search-results-page{
+padding: 0px 10px !important;
+}
+    }
+    @media (max-width: 760px) {
+        .search-results-page{
+            padding: 0px 10px !important;
+            }
+    }
+        @media (max-width: 750px) {
+            .search-results-list {
+                display: grid;
+                grid-template-columns: 1fr  ;
+                gap: 10px;
+                padding: 0px 80px !important;
+                }
+                
+            }
+ @media (max-width: 560px) {
+    .search-results-list {
+        display: grid;
+        grid-template-columns: 0.5fr  ;
+        gap: 10px;
+        padding: 0px !important;
+        }
+        .search-results-page h4 {
+            font-size: 24px;
+          }
+        
+            }
+
+ @media (max-width: 450px) {
+    .search-results-list {
+        display: grid;
+        grid-template-columns: 0.5fr  ;
+        gap: 10px;
+        padding: 0px !important;
+        }
+        .search-results-page{
+            margin: 100px 10px !important;
+        }
+        .search-results-page h4 {
+            font-size: 23px;
+          }
+            } 
+ @media (max-width: 350px) {
+    .search-results-page{
+        margin: 100px 0px !important;
+    } .search-results-page h4 {
+        font-size: 20px;
+      }
+}

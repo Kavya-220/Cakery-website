@@ -1,0 +1,33 @@
+.home{
+
+    display: flex;
+    width:100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.row{
+    animation: fadeIn 3s;
+}
+.head{
+    font-family: 'nunito';
+    font-weight:bolder;
+    font-size: 16px;
+}
+.para{
+    font-family: 'OpenSans' ;
+    font-size: 40px;
+    font-weight: 600;
+}
+.top-banner{
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('/header_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    width: 100%;
+   
+}

@@ -1,0 +1,31 @@
+.banner{
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('/blog_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    width: 100%;
+    font-family: "outfit", sans-serif;
+   
+}
+
+
+@media (max-width: 768px) {
+
+    .carousel  {
+        height:max-content;
+        padding: 0rem !important;
+    }
+    .carousel-caption h1{
+        font-size: 14px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+    .carousel-item img{
+        height:450px !important;
+    }
+
+
+    }
+   
